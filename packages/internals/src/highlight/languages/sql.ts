@@ -23,6 +23,6 @@ export const sql: SyntaxDefinition = {
   boolean: /\b(?:TRUE|FALSE|NULL)\b/i,
   number: /\b0x[\da-f]+\b|\b\d+\.?\d*|\B\.\d+\b/i,
   operator:
-    /[-+*\/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?|\b(?:AND|BETWEEN|IN|LIKE|NOT|OR|IS|DIV|REGEXP|RLIKE|SOUNDS LIKE|XOR)\b/i,
+    /[-+*\/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?|\b(?:AND|l2_distance|BETWEEN|IN|LIKE|NOT|OR|IS|DIV|REGEXP|RLIKE|SOUNDS LIKE|XOR)\b/i,
   punctuation: /[;[\]()`,.]/,
 }

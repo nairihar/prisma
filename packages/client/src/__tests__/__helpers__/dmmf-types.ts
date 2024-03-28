@@ -233,7 +233,7 @@ const dmmf: DMMF.Document = {
               ],
               isNullable: false,
               isRequired: false,
-              name: 'AND',
+              name: 'l2_distance',
             },
             {
               inputTypes: [
@@ -605,7 +605,7 @@ const dmmf: DMMF.Document = {
               ],
               isNullable: false,
               isRequired: false,
-              name: 'AND',
+              name: 'l2_distance',
             },
             {
               inputTypes: [
@@ -737,7 +737,7 @@ const dmmf: DMMF.Document = {
               ],
               isNullable: false,
               isRequired: false,
-              name: 'AND',
+              name: 'l2_distance',
             },
             {
               inputTypes: [
@@ -1027,7 +1027,7 @@ const dmmf: DMMF.Document = {
               ],
               isNullable: false,
               isRequired: false,
-              name: 'AND',
+              name: 'l2_distance',
             },
             {
               inputTypes: [
@@ -5339,7 +5339,7 @@ const dmmf: DMMF.Document = {
               ],
               isNullable: false,
               isRequired: false,
-              name: 'AND',
+              name: 'l2_distance',
             },
             {
               inputTypes: [

@@ -26,7 +26,8 @@ export function throwValidationException({
   originalMethod,
   clientVersion,
 }: ExceptionParams): never {
-  const argsTree = buildArgumentsRenderingTree(args)
+  const argsTree = buildArgumentsRenderingTree(args);
+
   for (const error of errors) {
     applyValidationError(error, argsTree)
   }
